@@ -1,4 +1,3 @@
-
 #!/usr/bin/node
 const __cwd = process.cwd();
 const isBuild = false;
