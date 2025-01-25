@@ -85,7 +85,7 @@ let outputFile = compile(file);
 console.log(outputFile);
 
 fs.mkdirSync(__cwd + '/coolmake_out');
-fs.readFileSync(__cwd + '/coolmake_out/out.cpp', outputFile);
+fs.writeFileSync(__cwd + '/coolmake_out/out.cpp', outputFile);
 console.log(`
 Complile complete 
 Now compile coolmake_out/out.cpp
